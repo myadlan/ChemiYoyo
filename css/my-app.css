@@ -21,17 +21,17 @@ img.image {
 }
 /* home */
 .bg0 {
-  background-image: url('../img/bg0.jpg');
+  background-image: url('../img/bg-main.jpg');
   background-size: cover;
 }
 /* learn */
 .bg1 {
-  background-image: url('../img/bg1.jpg');
+  background-image: url('../img/bg-quote.jpg');
   background-size: cover;
 }
 /* menu */
 .bg2 {
-  background-image: url('../img/bg2.jpg');
+  background-image: url('../img/bg-menu.jpg');
   background-size: cover;
 }
 .bg3 {
@@ -40,7 +40,7 @@ img.image {
 }
 /* summary */
 .bg4 {
-  background-image: url('../img/bg4.jpg');
+  background-image: url('../img/bg-summary.jpg');
   background-size: cover;
 }
 /* about */
@@ -106,4 +106,38 @@ img.image {
 
 .quizQ label:last-child {
   border-bottom:1px solid #ddd;
+}
+
+.rtable {
+  width:100%;
+  overflow:scroll;
+}
+.rtable table {
+  border-spacing:0;
+}
+.rtable table td {
+  border:1px solid #ddd;
+
+}
+
+.menu-grid ul {
+  list-style-type: none;
+  padding-left:0;
+}
+
+.menu-grid ul li {
+  display:inline-block;
+  width:49%;
+  box-sizing:border-box;
+  text-align: center;
+  margin-bottom:20px;
+}
+.menu-grid a {
+  display:block;
+  color:#fff;
+}
+.menu-grid a img {
+  display: block;
+  margin:0 auto;
+  max-width: 100px;
 }

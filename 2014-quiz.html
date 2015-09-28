@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Docs of Chemi - Quiz</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="pastpaper.html" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+    <div class="center sliding">Quiz</div>
+    <div class="right">
+      <!-- Right link contains only icon - additional "icon-only" class-->
+      <!-- <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a> -->
+    </div>
+  </div>
+</div>
+<div class="pages">
+  <!-- Page, data-page contains page name-->
+  <div data-page="quiz" class="page">
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <div class="content-block">
+        <div class="content-block-inner">
+
+          <!-- FILL CONTENT HERE -->
+          <form name="myForm" class="quiz">
+<div id="page">
+  
+  
+  <div id="q">
+    <div class="quizQ">
+    <div class="quizQ">
+    <h4>1) Which of the following is correct about an electrolyte ?</h4> 
+      <label><input type="radio" rel="0" value="a" name="grp0"/>a) Dissolves in water</label> <!--Correct Answer: A-->
+      <label><input type="radio" rel="0" value="b" name="grp0"/>b) Exists as liquid at room temperature</label>
+      <label><input type="radio" rel="0" value="c" name="grp0"/>c) Conducts electricity in solid state</label>
+      <label><input type="radio" rel="0" value="d" name="grp0"/>d) Has freely moving ions in aqueous state</label>
+
+    </div>
+
+
+    <div class="quizQ">
+    <h4> 2) Sulphuric acid H<sub>2</sub>SO<sub>4</sub> is produced in industry through Contact Process. What is the catalyst used in Contact process?</h4>  
+      <label><input type="radio" rel="1" value="a" name="grp1"/>a) Iron</label>
+      <label><input type="radio" rel="1" value="b" name="grp1"/>b) Platinum</label> <!--Correct Answer: B-->
+      <label><input type="radio" rel="1" value="c" name="grp1"/>c)  Vanadium(V) oxide</label>
+      <label><input type="radio" rel="1" value="d" name="grp1"/>d) Manganese(IV) oxide</label>
+    </div>
+
+
+    <div class="quizQ">
+    <h4>3) 3. Which of the following is correct about alkanes ?<br></h4>
+      <label><input type="radio" rel="2" value="a" name="grp2"/>a) The compound has hydroxyl group</label>
+      <label><input type="radio" rel="2" value="b" name="grp2"/>b) The compound is a saturated hydrocarbon</label>
+      <label><input type="radio" rel="2" value="c" name="grp2"/>c) The compound has general formula of C<sub>n</sub>H<sub>2n</sub></label> <!--Correct Answer: C-->
+      <label><input type="radio" rel="2" value="d" name="grp2"/>d) The compound consists of double bond between carbon atoms</label>
+    </div>
+
+    <div class="quizQ">
+    <h4>4) 4. Which statement explains why alloy is harder than pure metal?<br></h4> 
+      
+      <label><input type="radio" rel="3" value="a" name="grp3"/>a) Atoms of other metal reacts with atom of pure metal</label>
+      <label><input type="radio" rel="3" value="b" name="grp3"/>b) Atom of other metal reduces atom of pure metal from sliding</label> <!--Correct Answer: B-->
+      <label><input type="radio" rel="3" value="c" name="grp3"/>c) Bonds between atom in alloy is stronger</label>
+      <label><input type="radio" rel="3" value="d" name="grp3"/>d) Density of alloy is higher</label>
+    </div>
+
+    <div class="quizQ"> 
+    <h4> 5) Which substances neutralises a solution with the pH value of 4?</h4>
+      <label><input type="radio" rel="4" value="a" name="grp4"/>a) Distilled water</label>
+      <label><input type="radio" rel="4" value="b" name="grp4"/>b) Sodium chloride</label>
+      <label><input type="radio" rel="4" value="c" name="grp4"/>c) Sodium hydroxide</label>
+      <label><input type="radio" rel="4" value="d" name="grp4"/>d) Dilute ethanoic acid</label>
+
+    </div>
+
+    
+      <input type ="button" id="score" value="Score Quiz" class="button button-big button-fill" />
+    
+  </div>
+</div>
+</form>
+
+
+          <!-- END CONTENT HERE -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/2014-quiz.js"></script>
+</div>
+    </div>
+  </body>
+</html>
